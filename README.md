@@ -6,7 +6,7 @@
 [![Format](https://img.shields.io/badge/Format-Jupyter%20Notebook%20%7C%20PDF-orange.svg)](https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook)
 [![Semester](https://img.shields.io/badge/Semester-Fall%202026-blue.svg)](https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook)
 
-# [توضیحات فارسی](https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook/blob/main/README_FA.md)
+# [توضیحات فارسی](https://github.com/IAU-Shiraz-Courses/Data-Mining-Textbook/blob/main/README_FA.md)
 
 ---
 
