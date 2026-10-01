@@ -100,7 +100,7 @@ function ChapterCard({ c, index }: { c: Chapter; index: number }) {
 
         <div className="relative mt-auto grid grid-cols-2 gap-2.5 pt-5">
           <a
-            href={repoRaw(`${c.id}/ch${c.id}.ipynb`)}
+            href={repoBlob(`${c.id}/ch${c.id}.ipynb`)}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-xl px-3 py-3 text-sm font-bold text-ink transition hover:brightness-110"
@@ -110,7 +110,7 @@ function ChapterCard({ c, index }: { c: Chapter; index: number }) {
             {t(T.chapters.notebook)}
           </a>
           <a
-            href={repoBlob(`${c.id}/ch${c.id}.pdf`)}
+            href={repoRaw(`${c.id}/ch${c.id}.pdf`)}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/[0.05] px-3 py-3 text-sm font-bold text-white transition hover:bg-white/10"
