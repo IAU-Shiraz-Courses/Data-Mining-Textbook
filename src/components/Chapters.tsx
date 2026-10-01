@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { useLang } from "../lang";
 import { T } from "../i18n";
 import { Icon, Reveal, SectionHead, hsl } from "./ui";
-import { chapters, repoBlob, type Chapter } from "../data/chapters";
+import { chapters, repoBlob, repoRaw, type Chapter } from "../data/chapters"; 
 import { cn } from "../utils/cn";
 
 function ChapterCard({ c, index }: { c: Chapter; index: number }) {
