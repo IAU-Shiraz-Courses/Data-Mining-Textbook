@@ -100,7 +100,7 @@ function ChapterCard({ c, index }: { c: Chapter; index: number }) {
 
         <div className="relative mt-auto grid grid-cols-2 gap-2.5 pt-5">
           <a
-            href={repoBlob(`${c.id}/ch${c.id}.ipynb`)}
+            href={repoRaw(`${c.id}/ch${c.id}.ipynb`)}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-xl px-3 py-3 text-sm font-bold text-ink transition hover:brightness-110"
