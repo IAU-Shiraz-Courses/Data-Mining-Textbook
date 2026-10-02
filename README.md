@@ -186,7 +186,7 @@ The following members are identified in the course material as the design team r
 1. [**Hamid Namjoo**](https://hamidnamjoo.com/)
 2. [**Amir Hossein Hemmati**](https://github.com/AmirHosseinHemati)
 3. [**Amir Mohammad Asadjoo**](https://github.com/Amir-Mohammd-Asadjoo)
-4. **Ali Nikvan**
+4. **Ali Nikouan**
 5. **Reza Liaqat**
 6. **Alireza Moghaddas**
 7. **Golnoush Hosseinpour**
@@ -1456,7 +1456,7 @@ Copyright © 2026
 Hamid Namjoo
 Amir Hossein Hemmati
 Amir Mohammad Asadjoo
-Ali Nikvan
+Ali Nikouan
 Reza Liaqat
 Alireza Moghaddas
 Golnoush Hosseinpour
@@ -1502,7 +1502,7 @@ please cite the authors and link to the original repository.
   author       = {Namjoo, Hamid and
                   Hemmati, Amir Hossein and
                   Asadjoo, Amir Mohammad and
-                  Nikvan, Ali and
+                  Nikouan, Ali and
                   Liaqat, Reza and
                   Moghaddas, Alireza and
                   Hosseinpour, Golnoush and
@@ -1792,7 +1792,7 @@ This collection is the result of collaborative work by the course design team un
 * [**Hamid Namjoo**](https://hamidnamjoo.com/)
 * [**Amir Hossein Hemmati**](https://github.com/AmirHosseinHemati)
 * [**Amir Mohammad Asadjoo**](https://github.com/Amir-Mohammd-Asadjoo)
-* **Ali Nikvan**
+* **Ali Nikouan**
 * **Reza Liaqat**
 * **Alireza Moghaddas**
 * **Golnoush Hosseinpour**
