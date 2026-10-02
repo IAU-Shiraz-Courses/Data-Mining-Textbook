@@ -61,32 +61,28 @@ export function Run() {
                   </button>
                 ))}
               </div>
-              <div className="relative min-w-0">
-                <div className="code-scroll max-w-full overflow-x-auto">
-                  <pre className="mono min-h-[150px] min-w-max p-5 pe-16 text-[12.5px] leading-7 text-slate-200 sm:text-[13.5px]">
+              <div className="relative min-w-0 max-w-full">
+                {/* Copy button */}
+                <div className="absolute end-3 top-3 z-10">
+                  <button
+                    onClick={copy}
+                    className="rounded-lg border border-white/10 bg-white/5 px-2.5 py-1.5 text-[11px] text-slate-300 backdrop-blur transition hover:bg-white/10"
+                  >
+                    {copied ? T.run.copied[lang] : T.run.copy[lang]}
+                  </button>
+                </div>
+              
+                {/* Code */}
+                <div className="code-scroll w-full max-w-full overflow-x-auto">
+                  <pre className="mono m-0 min-h-[150px] w-max min-w-full p-5 pe-24 text-[12.5px] leading-7 text-slate-200 sm:text-[13.5px]">
                     {runSnippets[tab].split("\n").map((line, i) => (
-                      <div key={i} className="whitespace-pre">
-                        {line.startsWith("#") ? (
-                          <span className="text-slate-500">{line}</span>
-                        ) : (
-                          <>
-                            <span className="select-none text-cyan-400/70">
-                              {/^\s/.test(line) ? "  " : "$ "}
-                            </span>
-              
-                            {line.split("  # ")[0].split("   # ")[0]}
-              
-                            {/\s#\s/.test(line) && (
-                              <span className="text-slate-500">
-                                {"  # " + line.split(/\s#\s/).slice(1).join(" # ")}
-                              </span>
-                            )}
-                          </>
-                        )}
-                      </div>
+                      <code key={i} className="block whitespace-pre">
+                        {line}
+                      </code>
                     ))}
                   </pre>
                 </div>
+              </div>
               
                 <button
                   onClick={() => copy(runSnippets[tab])}
