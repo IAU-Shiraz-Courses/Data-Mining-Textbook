@@ -61,30 +61,47 @@ export function Run() {
                   </button>
                 ))}
               </div>
-              <div className="relative">
-                <pre className="mono code-scroll min-h-[150px] p-5 pe-16 text-[12.5px] leading-7 text-slate-200 sm:text-[13.5px]">
-                  {runSnippets[tab].split("\n").map((line, i) => (
-                    <div key={i} className="whitespace-pre">
-                      {line.startsWith("#") ? (
-                        <span className="text-slate-500">{line}</span>
-                      ) : (
-                        <>
-                          <span className="select-none text-cyan-400/70">{/^\s/.test(line) ? "  " : "$ "}</span>
-                          {line.split("  # ")[0].split("   # ")[0]}
-                          {/\s#\s/.test(line) && (
-                            <span className="text-slate-500">{"  # " + line.split(/\s#\s/).slice(1).join(" # ")}</span>
-                          )}
-                        </>
-                      )}
-                    </div>
-                  ))}
-                </pre>
+              <div className="relative min-w-0">
+                <div className="code-scroll max-w-full overflow-x-auto">
+                  <pre className="mono min-h-[150px] min-w-max p-5 pe-16 text-[12.5px] leading-7 text-slate-200 sm:text-[13.5px]">
+                    {runSnippets[tab].split("\n").map((line, i) => (
+                      <div key={i} className="whitespace-pre">
+                        {line.startsWith("#") ? (
+                          <span className="text-slate-500">{line}</span>
+                        ) : (
+                          <>
+                            <span className="select-none text-cyan-400/70">
+                              {/^\s/.test(line) ? "  " : "$ "}
+                            </span>
+              
+                            {line.split("  # ")[0].split("   # ")[0]}
+              
+                            {/\s#\s/.test(line) && (
+                              <span className="text-slate-500">
+                                {"  # " + line.split(/\s#\s/).slice(1).join(" # ")}
+                              </span>
+                            )}
+                          </>
+                        )}
+                      </div>
+                    ))}
+                  </pre>
+                </div>
+              
                 <button
                   onClick={() => copy(runSnippets[tab])}
                   className="absolute end-3 top-3 inline-flex items-center gap-1.5 rounded-lg border border-white/10 bg-white/[0.06] px-3 py-1.5 text-xs font-semibold text-slate-200 transition hover:bg-white/10"
                 >
-                  <Icon name={copied ? "check" : "copy"} className={cn("h-3.5 w-3.5", copied && "text-emerald-300")} />
-                  <span className="latin">{copied ? T.run.copied.en : T.run.copy.en}</span>
+                  <Icon
+                    name={copied ? "check" : "copy"}
+                    className={cn(
+                      "h-3.5 w-3.5",
+                      copied && "text-emerald-300",
+                    )}
+                  />
+                  <span className="latin">
+                    {copied ? T.run.copied.en : T.run.copy.en}
+                  </span>
                 </button>
               </div>
             </div>
