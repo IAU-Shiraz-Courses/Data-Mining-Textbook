@@ -190,7 +190,7 @@ PDF کامل، مطالب فصل‌های منتشرشده را در یک سند
 1. **[Hamid Namjoo](https://hamidnamjoo.com/)**
 2. **[Amir Hossein Hemmati](https://github.com/AmirHosseinHemati)**
 3. **[AmirMohammad Asadjoo](https://github.com/Amir-Mohammd-Asadjoo)**
-4. **Ali Nikvan**
+4. **Ali Nikouan**
 5. **Reza Liaqat**
 6. **Alireza Moghaddas**
 7. **Golnoush Hosseinpour**
@@ -1471,7 +1471,7 @@ Copyright © 2026
 Hamid Namjoo
 Amir Hossein Hemmati
 Amir Mohammad Asadjoo
-Ali Nikvan
+Ali Nikouan
 Reza Liaqat
 Alireza Moghaddas
 Golnoush Hosseinpour
@@ -1508,7 +1508,7 @@ Elham Izadi
 
 ## ارجاع پیشنهادی
 
-> Hamid Namjoo; Amir Hossein Hemmati; Amir Mohammad Asadjoo; Ali Nikvan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. *Data Mining Textbook, Version 2*. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook
+> Hamid Namjoo; Amir Hossein Hemmati; Amir Mohammad Asadjoo; Ali Nikouan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. *Data Mining Textbook, Version 2*. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook
 
 ## BibTeX
 
@@ -1518,7 +1518,7 @@ Elham Izadi
   author       = {Namjoo, Hamid and
                   Hemmati, Amir Hossein and
                   Asadjoo, Amir Mohammad and
-                  Nikvan, Ali and
+                  Nikouan, Ali and
                   Liaqat, Reza and
                   Moghaddas, Alireza and
                   Hosseinpour, Golnoush and
@@ -1816,7 +1816,7 @@ GitHub می‌تواند فایل‌های `.ipynb` را برای مطالعه �
 * **[Hamid Namjoo](https://hamidnamjoo.com/)**
 * **[Amir Hossein Hemmati](https://github.com/AmirHosseinHemati)**
 * **[Amir Mohammad Asadjoo](https://github.com/Amir-Mohammd-Asadjoo)**
-* **Ali Nikvan**
+* **Ali Nikouan**
 * **Reza Liaqat**
 * **Alireza Moghaddas**
 * **Golnoush Hosseinpour**
