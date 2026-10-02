@@ -281,14 +281,14 @@ export const T = {
 };
 
 export const citationText =
-  "Hamid Namjoo; Amir Hossein Hemmati; Amir Mohammad Asadjoo; Ali Nikvan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. Data Mining Textbook, Version 2. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/IAU-Shiraz-Courses/Data-Mining-Textbook";
+  "Hamid Namjoo; Amir Hossein Hemmati; Amir Mohammad Asadjoo; Ali Nikouan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. Data Mining Textbook, Version 2. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/IAU-Shiraz-Courses/Data-Mining-Textbook";
 
 export const bibtex = `@misc{data_mining_textbook_v2_2026,
   title  = {Data Mining Textbook, Version 2},
   author = {Namjoo, Hamid and
             Hemmati, Amir Hossein and
             Asadjoo, Amir Mohammad and
-            Nikvan, Ali and
+            Nikouan, Ali and
             Liaqat, Reza and
             Moghaddas, Alireza and
             Hosseinpour, Golnoush and
