@@ -1492,7 +1492,7 @@ please cite the authors and link to the original repository.
 
 ## Suggested Citation
 
-> Hamid Namjoo; Amir Hossein Hemmati; Amir Mohammad Asadjoo; Ali Nikvan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. *Data Mining Textbook, Version 2*. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook
+> Hamid Namjoo; Amir Hossein Hemmati; Amir Mohammad Asadjoo; Ali Nikouan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. *Data Mining Textbook, Version 2*. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook
 
 ## BibTeX
 
