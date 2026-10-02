@@ -29,7 +29,9 @@ export function Run() {
   const [hoverCol, setHoverCol] = useState<number | null>(null);
   const { copied, copy } = useCopy();
 
-  const usage = libs.map((l) => chapters.filter((c) => c.deps.includes(l)).length);
+  const usage = libs.map((l) =>
+    chapters.filter((c) => c.deps.includes(l)).length,
+  );
 
   return (
     <section id="run" className="relative py-20 sm:py-28">
@@ -42,9 +44,9 @@ export function Run() {
           sub={t(T.run.sub)}
         />
 
-        <div className="grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="grid min-w-0 gap-5 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)]">
           {/* terminal */}
-          <Reveal>
+          <Reveal className="min-w-0">
             <div
               className="gborder min-w-0 max-w-full overflow-hidden rounded-3xl bg-[#080c18]/90 shadow-2xl shadow-indigo-950/40"
               dir="ltr"
@@ -78,9 +80,8 @@ export function Run() {
                 ))}
               </div>
 
-              {/* code area */}
+              {/* code */}
               <div className="relative min-w-0 max-w-full">
-                {/* Copy button */}
                 <div className="absolute end-3 top-3 z-10">
                   <button
                     onClick={() => copy(runSnippets[tab])}
@@ -100,14 +101,10 @@ export function Run() {
                   </button>
                 </div>
 
-                {/* Horizontally scrollable code */}
                 <div className="code-scroll w-full max-w-full overflow-x-auto">
                   <pre className="mono m-0 min-h-[150px] w-max min-w-full p-5 pe-24 text-[12.5px] leading-7 text-slate-200 sm:text-[13.5px]">
                     {runSnippets[tab].split("\n").map((line, i) => (
-                      <code
-                        key={i}
-                        className="block whitespace-pre"
-                      >
+                      <code key={i} className="block whitespace-pre">
                         {line}
                       </code>
                     ))}
@@ -122,13 +119,12 @@ export function Run() {
                 name="alert"
                 className="mt-1 h-4 w-4 text-amber-300/80"
               />
-
               {t(T.run.note)}
             </p>
           </Reveal>
 
           {/* python versions */}
-          <Reveal delay={120}>
+          <Reveal className="min-w-0" delay={120}>
             <div className="glass h-full rounded-3xl p-6 sm:p-8">
               <h3 className="text-lg font-bold text-white">
                 {t(T.run.pyTitle)}
@@ -194,7 +190,7 @@ export function Run() {
           </Reveal>
         </div>
 
-        {/* matrix */}
+        {/* dependency matrix */}
         <Reveal className="mt-8">
           <div className="glass rounded-3xl p-4 sm:p-7">
             <h3 className="text-lg font-bold text-white sm:text-xl">
